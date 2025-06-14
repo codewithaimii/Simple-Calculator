@@ -1,51 +1,40 @@
-<h1> Calculator App </h1>
+🧮 Simple Calculator App
+**Project by [codewithaimii](https://github.com/codewithaimii)**  
+📅 *Developed in 2021
+💻 *Language Used: C*
 
-This repository contains the source code and logic for a basic calculator application. The app is designed to perform standard arithmetic operations and can be used in various platforms such as desktop, console, or web. It serves as a foundational project for learning and implementing basic programming concepts.
+📌 Project Overview
+The Simple Calculator App is a command-line based C++ application that performs basic arithmetic operations such as Addition, Subtraction, Multiplication, and Division. It's designed to demonstrate fundamental programming logic, user input handling, and control structures.
 
-<h2>Table of contents</h2>
+This project is ideal for beginners learning C++ and practicing console-based applications.
 
-- [Introduction](#introduction)  
-  - [Project Objectives](#project-objectives)  
-  - [Technologies Used](#technologies-used)  
-- [Features](#features)  
-- [Project Status](#project-status)  
-- [Installation](#installation)  
-  - [Get Repository](#get-repository)  
-  - [How to Run](#how-to-run)  
-- [License](#license)
+💡 Features
+➕ Addition
 
-## Introduction
+➖ Subtraction
 
-This calculator app is a lightweight and user-friendly tool designed to help users perform basic mathematical operations quickly. It can handle addition, subtraction, multiplication, and division operations. This project is great for beginner programmers and can be extended with advanced features like GUI, history, or scientific functions.
+✖️ Multiplication
 
-### Project Objectives
+➗ Division
 
-- To build a basic calculator for general use  
-- To practice fundamental programming logic and structures  
-- To serve as a simple utility for learning and demonstration
+🔁 Looping mechanism for multiple calculations
 
-### Technologies Used
+📃 Simple, interactive terminal interface
 
-- Programming Language: C++  
-- Platform: Console-based / GUI / Web  
-- Editor: VS Code / PyCharm / Browser *(optional)*
+🧑‍💻 Key Concepts Used
+Functions for each operation
 
-## Features
+Conditional statements
 
-- Basic arithmetic operations: `+`, `-`, `*`, `/`  
-- Error handling for invalid inputs and divide-by-zero  
-- Clean and readable code structure  
-- Easily extensible for additional features  
+Switch-case structure
 
-## Project Status
+User input/output (cin/cout)
 
-> **Completed**
+Loops (do-while) for continuous execution
 
-## Installation
-
-### Get Repository
-
-```bash
-git clone https://github.com/your-username/calculator-app.git
+🚀 How to Run
+Clone the repository:
+git clone https://github.com/codewithaimii/calculator-app.git
 cd calculator-app
-
+//Compile the code:
+g++ calculator.cpp -o calculator
